@@ -17,6 +17,8 @@
 		C4A4E05D230FBD5E005984C3 /* VMFeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A4E05B230FBD5E005984C3 /* VMFeedTableViewCell.swift */; };
 		C4A4E05E230FBD5E005984C3 /* VMFeedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4A4E05C230FBD5E005984C3 /* VMFeedTableViewCell.xib */; };
 		C4A4E060230FCACB005984C3 /* ViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A4E05F230FCACB005984C3 /* ViewController+TableView.swift */; };
+		C4A4E062230FF665005984C3 /* MVServiceParsingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A4E061230FF665005984C3 /* MVServiceParsingTest.swift */; };
+		C4A4E064230FF6EC005984C3 /* MindVList.json in Resources */ = {isa = PBXBuildFile; fileRef = C4A4E063230FF6EC005984C3 /* MindVList.json */; };
 		C4A98CD0230C03CE000800AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A98CCF230C03CE000800AF /* AppDelegate.swift */; };
 		C4A98CD2230C03CE000800AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A98CD1230C03CE000800AF /* ViewController.swift */; };
 		C4A98CD5230C03CE000800AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4A98CD3230C03CE000800AF /* Main.storyboard */; };
@@ -58,6 +60,8 @@
 		C4A4E05B230FBD5E005984C3 /* VMFeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMFeedTableViewCell.swift; sourceTree = "<group>"; };
 		C4A4E05C230FBD5E005984C3 /* VMFeedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VMFeedTableViewCell.xib; sourceTree = "<group>"; };
 		C4A4E05F230FCACB005984C3 /* ViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+TableView.swift"; sourceTree = "<group>"; };
+		C4A4E061230FF665005984C3 /* MVServiceParsingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVServiceParsingTest.swift; sourceTree = "<group>"; };
+		C4A4E063230FF6EC005984C3 /* MindVList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MindVList.json; sourceTree = "<group>"; };
 		C4A98CCC230C03CE000800AF /* AssignmentMV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssignmentMV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4A98CCF230C03CE000800AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4A98CD1230C03CE000800AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -143,6 +147,8 @@
 			children = (
 				C4A98CE7230C03D2000800AF /* AssignmentMVTests.swift */,
 				C4A98CE9230C03D2000800AF /* Info.plist */,
+				C4A4E061230FF665005984C3 /* MVServiceParsingTest.swift */,
+				C4A4E063230FF6EC005984C3 /* MindVList.json */,
 			);
 			path = AssignmentMVTests;
 			sourceTree = "<group>";
@@ -316,6 +322,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4A4E064230FF6EC005984C3 /* MindVList.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +363,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4A98CE8230C03D2000800AF /* AssignmentMVTests.swift in Sources */,
+				C4A4E062230FF665005984C3 /* MVServiceParsingTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

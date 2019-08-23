@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AssignmentMV/Framework/SwiftyApiManager.swift"
-            timestampString = "588247795.008765"
+            timestampString = "588249211.4786"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "34"
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AssignmentMV/Framework/SwiftyApiManager.swift"
-            timestampString = "588247795.009499"
+            timestampString = "588249211.479201"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
             landmarkName = "download(formUrl:withMethod:completion:)"
             landmarkType = "7">
          </BreakpointContent>
