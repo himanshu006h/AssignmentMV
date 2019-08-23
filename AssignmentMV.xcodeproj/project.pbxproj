@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C4A4E04E230FAA2D005984C3 /* VMFeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A4E04D230FAA2D005984C3 /* VMFeedViewModel.swift */; };
+		C4A4E055230FAAC3005984C3 /* Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A4E04F230FAAC3005984C3 /* Urls.swift */; };
+		C4A4E056230FAAC3005984C3 /* Links.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A4E050230FAAC3005984C3 /* Links.swift */; };
+		C4A4E057230FAAC3005984C3 /* VM_Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A4E051230FAAC3005984C3 /* VM_Base.swift */; };
+		C4A4E058230FAAC3005984C3 /* Profile_image.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A4E052230FAAC3005984C3 /* Profile_image.swift */; };
+		C4A4E059230FAAC3005984C3 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A4E053230FAAC3005984C3 /* Categories.swift */; };
+		C4A4E05A230FAAC3005984C3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A4E054230FAAC3005984C3 /* User.swift */; };
+		C4A4E05D230FBD5E005984C3 /* VMFeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A4E05B230FBD5E005984C3 /* VMFeedTableViewCell.swift */; };
+		C4A4E05E230FBD5E005984C3 /* VMFeedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4A4E05C230FBD5E005984C3 /* VMFeedTableViewCell.xib */; };
+		C4A4E060230FCACB005984C3 /* ViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A4E05F230FCACB005984C3 /* ViewController+TableView.swift */; };
 		C4A98CD0230C03CE000800AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A98CCF230C03CE000800AF /* AppDelegate.swift */; };
 		C4A98CD2230C03CE000800AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A98CD1230C03CE000800AF /* ViewController.swift */; };
 		C4A98CD5230C03CE000800AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4A98CD3230C03CE000800AF /* Main.storyboard */; };
@@ -15,6 +25,9 @@
 		C4A98CDD230C03D2000800AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4A98CDB230C03D2000800AF /* LaunchScreen.storyboard */; };
 		C4A98CE8230C03D2000800AF /* AssignmentMVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A98CE7230C03D2000800AF /* AssignmentMVTests.swift */; };
 		C4A98CF3230C03D3000800AF /* AssignmentMVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A98CF2230C03D3000800AF /* AssignmentMVUITests.swift */; };
+		C4A98D09230C0B06000800AF /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A98D04230C0B06000800AF /* Enums.swift */; };
+		C4A98D0B230C0B06000800AF /* SwiftyApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A98D06230C0B06000800AF /* SwiftyApiManager.swift */; };
+		C4A98D0C230C0B06000800AF /* Swifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A98D08230C0B06000800AF /* Swifty.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +48,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C4A4E04D230FAA2D005984C3 /* VMFeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMFeedViewModel.swift; sourceTree = "<group>"; };
+		C4A4E04F230FAAC3005984C3 /* Urls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Urls.swift; sourceTree = "<group>"; };
+		C4A4E050230FAAC3005984C3 /* Links.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Links.swift; sourceTree = "<group>"; };
+		C4A4E051230FAAC3005984C3 /* VM_Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VM_Base.swift; sourceTree = "<group>"; };
+		C4A4E052230FAAC3005984C3 /* Profile_image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile_image.swift; sourceTree = "<group>"; };
+		C4A4E053230FAAC3005984C3 /* Categories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		C4A4E054230FAAC3005984C3 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C4A4E05B230FBD5E005984C3 /* VMFeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMFeedTableViewCell.swift; sourceTree = "<group>"; };
+		C4A4E05C230FBD5E005984C3 /* VMFeedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VMFeedTableViewCell.xib; sourceTree = "<group>"; };
+		C4A4E05F230FCACB005984C3 /* ViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+TableView.swift"; sourceTree = "<group>"; };
 		C4A98CCC230C03CE000800AF /* AssignmentMV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssignmentMV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4A98CCF230C03CE000800AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4A98CD1230C03CE000800AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +72,10 @@
 		C4A98CEE230C03D2000800AF /* AssignmentMVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssignmentMVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4A98CF2230C03D3000800AF /* AssignmentMVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentMVUITests.swift; sourceTree = "<group>"; };
 		C4A98CF4230C03D3000800AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4A98D04230C0B06000800AF /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		C4A98D06230C0B06000800AF /* SwiftyApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyApiManager.swift; sourceTree = "<group>"; };
+		C4A98D07230C0B06000800AF /* SwiftyService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftyService.h; sourceTree = "<group>"; };
+		C4A98D08230C0B06000800AF /* Swifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swifty.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +126,12 @@
 		C4A98CCE230C03CE000800AF /* AssignmentMV */ = {
 			isa = PBXGroup;
 			children = (
+				C4A98D03230C08DC000800AF /* Framework */,
+				C4A98D02230C0874000800AF /* Model */,
+				C4A98D00230C0874000800AF /* View */,
+				C4A98D01230C0874000800AF /* ViewModel */,
 				C4A98CCF230C03CE000800AF /* AppDelegate.swift */,
-				C4A98CD1230C03CE000800AF /* ViewController.swift */,
-				C4A98CD3230C03CE000800AF /* Main.storyboard */,
 				C4A98CD9230C03D2000800AF /* Assets.xcassets */,
-				C4A98CDB230C03D2000800AF /* LaunchScreen.storyboard */,
 				C4A98CDE230C03D2000800AF /* Info.plist */,
 				C4A98CD6230C03CE000800AF /* AssignmentMV.xcdatamodeld */,
 			);
@@ -126,6 +154,51 @@
 				C4A98CF4230C03D3000800AF /* Info.plist */,
 			);
 			path = AssignmentMVUITests;
+			sourceTree = "<group>";
+		};
+		C4A98D00230C0874000800AF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4A98CD3230C03CE000800AF /* Main.storyboard */,
+				C4A98CD1230C03CE000800AF /* ViewController.swift */,
+				C4A98CDB230C03D2000800AF /* LaunchScreen.storyboard */,
+				C4A4E05B230FBD5E005984C3 /* VMFeedTableViewCell.swift */,
+				C4A4E05C230FBD5E005984C3 /* VMFeedTableViewCell.xib */,
+				C4A4E05F230FCACB005984C3 /* ViewController+TableView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C4A98D01230C0874000800AF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C4A4E04D230FAA2D005984C3 /* VMFeedViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C4A98D02230C0874000800AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C4A4E053230FAAC3005984C3 /* Categories.swift */,
+				C4A4E051230FAAC3005984C3 /* VM_Base.swift */,
+				C4A4E050230FAAC3005984C3 /* Links.swift */,
+				C4A4E052230FAAC3005984C3 /* Profile_image.swift */,
+				C4A4E04F230FAAC3005984C3 /* Urls.swift */,
+				C4A4E054230FAAC3005984C3 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C4A98D03230C08DC000800AF /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				C4A98D04230C0B06000800AF /* Enums.swift */,
+				C4A98D08230C0B06000800AF /* Swifty.swift */,
+				C4A98D06230C0B06000800AF /* SwiftyApiManager.swift */,
+				C4A98D07230C0B06000800AF /* SwiftyService.h */,
+			);
+			path = Framework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +307,7 @@
 			files = (
 				C4A98CDD230C03D2000800AF /* LaunchScreen.storyboard in Resources */,
 				C4A98CDA230C03D2000800AF /* Assets.xcassets in Resources */,
+				C4A4E05E230FBD5E005984C3 /* VMFeedTableViewCell.xib in Resources */,
 				C4A98CD5230C03CE000800AF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +333,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4A4E05A230FAAC3005984C3 /* User.swift in Sources */,
+				C4A98D0B230C0B06000800AF /* SwiftyApiManager.swift in Sources */,
 				C4A98CD2230C03CE000800AF /* ViewController.swift in Sources */,
+				C4A4E04E230FAA2D005984C3 /* VMFeedViewModel.swift in Sources */,
+				C4A4E057230FAAC3005984C3 /* VM_Base.swift in Sources */,
+				C4A4E055230FAAC3005984C3 /* Urls.swift in Sources */,
+				C4A4E059230FAAC3005984C3 /* Categories.swift in Sources */,
+				C4A4E056230FAAC3005984C3 /* Links.swift in Sources */,
+				C4A4E060230FCACB005984C3 /* ViewController+TableView.swift in Sources */,
+				C4A4E05D230FBD5E005984C3 /* VMFeedTableViewCell.swift in Sources */,
 				C4A98CD8230C03CE000800AF /* AssignmentMV.xcdatamodeld in Sources */,
+				C4A98D0C230C0B06000800AF /* Swifty.swift in Sources */,
+				C4A98D09230C0B06000800AF /* Enums.swift in Sources */,
+				C4A4E058230FAAC3005984C3 /* Profile_image.swift in Sources */,
 				C4A98CD0230C03CE000800AF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
